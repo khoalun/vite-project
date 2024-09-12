@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useState } from "react";
 import supabaseClient from "./api";
-import Buttons from "./Buttons";
+import Buttons from "./components/Buttons";
 import { generateSmallestUniqueId } from "./utils";
 import PreferenceItem from "./components/PreferenceItem";
 import SubscriptionItem from "./components/SubscriptionItem";
